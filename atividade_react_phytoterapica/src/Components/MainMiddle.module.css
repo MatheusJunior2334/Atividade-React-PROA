@@ -1,0 +1,65 @@
+#section2 {
+    position: relative;
+    width: 92%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#row {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#row div {
+    width: 280px;
+    height: 280px;
+    cursor: pointer;
+}
+
+#row img {
+    width: 100%;
+    height: 100%;
+}
+
+#row p {
+    color: #98B020;
+}
+
+#row h6 {
+    font-size: 13px;
+    font-weight: 600;
+}
+/*
+#lavanda {
+    background-image: url(../Images/lavanda_1.webp);
+}
+
+#lavanda:hover {
+    background-image: url(../Images/lavanda_2.webp);
+}
+
+#geranio {
+    background-image: url(../Images/geranio_1.webp);
+}
+
+#geranio:hover {
+    background-image: url(../Images/geranio_2.webp);
+}
+
+#alecrim {
+    background-image: url(../Images/alecrim_1.webp);
+}
+
+#alecrim:hover {
+    background-image: url(../Images/alecrim_2.webp);
+}
+
+#hortela {
+    background-image: url(../Images/hortela_1.webp);
+}
+
+#hortela:hover {
+    background-image: url(../Images/hortela_2.webp);
+}*/
