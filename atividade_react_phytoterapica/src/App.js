@@ -18,6 +18,8 @@ import './App.css';
 import Header from './Components/Header';
 import MainTop from './Components/MainTop';
 import MainMiddle from './Components/MainMiddle';
+import MainBottom from './Components/MainBottom';
+import Footer from './Components/Footer';
 import Lemon from './Components/Lemon';
 
 function App() {
@@ -53,6 +55,10 @@ function App() {
         <MainMiddle imagem={salvia} tipo="Sálvia Esclareia" quantidade="5ml" preco1="R$51,20" preco2="R$17,06" />
         <MainMiddle imagem={hortela} tipo="Hortelã-Pimenta (Menta)" quantidade="10ml" preco1="R$52,00" preco2="R$17,33" />
       </section>
+
+      <MainBottom />
+
+      <Footer />
     </main>
   );
 }

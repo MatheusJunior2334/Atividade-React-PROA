@@ -1,0 +1,60 @@
+#newsletter {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+#newsletterdiv {
+    width: 80%;
+    margin: auto;
+    display: flex;   
+    padding: 25px 0;
+}
+
+#part1 {
+    width: 25%;
+}
+
+#part2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+#part2 input {
+    width: 92%;
+    text-indent: 10px;
+    border-radius: 45px;
+    border: 1px solid #555;
+    padding: 15px 10px;
+    font-weight: 500;
+}
+
+#part3 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+#part3 button {
+    width: 92%;
+    padding: 15px 0;
+    border-radius: 45px;
+    border: 1px solid #98B020;
+    background-color: #98B020;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#part3 button:hover {
+    opacity: 80%;
+}

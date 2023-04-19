@@ -10,6 +10,7 @@
     height: 350px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 #row div {
