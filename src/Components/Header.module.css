@@ -1,0 +1,169 @@
+#header1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+}
+
+#header_part1 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+}
+
+#header_part1 img {
+    width: 90%;
+    padding: 15px 0;
+}
+
+#header_part2 {
+    width: 15%;
+}
+
+#header_part3 {
+    width: 43%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#search {
+    width: 40%;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+#search div {
+    width: 15%;
+    height: 50%;
+    margin: auto;
+    background-image: url(../Images/lupa.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #ffffff;
+    border-radius: 50px 0 0 50px;
+    cursor: pointer;
+}
+
+input {
+    width: 85%;
+    text-align: left;
+    border-radius: 0 50px 50px 0;
+    font-size: 15px;
+    font-family: arial;
+    padding: 10px;
+    border: 0;
+}
+
+#compra {
+    width: 45%;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 50px;
+    background-color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#compra:hover {
+    background-color: #98B020;
+    border: 0;
+}
+
+#compra:hover p {
+    color: #fff;
+}
+
+#compra:hover #porcentagem {
+    background-image: url(../Images/porcentagem_2.svg);
+}
+
+#compra button {
+    width: 80%;
+    border-radius: 50px 0 0 50px;
+    border: 0;
+    background-color: transparent;
+}
+
+#compra2 {
+    display: none;
+}
+
+#compra:hover #compra1 {
+    display: none;
+}
+
+#compra:hover #compra2 {
+    display: block;
+}
+
+#porcentagem {
+    width: 20%;
+    height: 85%;
+    margin: auto;
+    background-image: url(../Images/porcentagem_1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 0 50px 50px 0;
+}
+
+#header_part4 {
+    width: 17%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#login {
+    background-image: url(../Images/login_1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    transition: all 0.3s;
+}
+
+#login:hover {
+    background-image: url(../Images/login_2.svg);
+}
+
+#carrinho {
+    background-image: url(../Images/carrinho.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    transition: all 0.3s;
+}
+
+#header2 {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+
+#header2 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#header2 p:hover {
+    color: #98B020;
+}

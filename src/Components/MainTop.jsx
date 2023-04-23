@@ -9,8 +9,14 @@ function MainTop() {
             </div>
             <div id={styles.div2}>
                 <div id={styles.div2_part1}>
-                    <h2>FILTRAR</h2> 
-                    <h2>ORDENAR POR</h2>
+                    <div id={styles.filtrar}>
+                        <h2>FILTRAR</h2>
+                        <div></div>
+                    </div>
+                    <div id={styles.ordenar}>
+                        <h2>ORDENAR POR</h2>
+                        <div></div>
+                    </div>
                 </div>
                 <div id={styles.div2_part2}>
                     <p>56 Produtos</p>

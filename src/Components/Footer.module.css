@@ -1,0 +1,205 @@
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+#footer_part1 {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caracteristicas {
+    width: 33.33%;
+    display: flex;
+    margin: 40px 0;
+}
+
+.width {
+    display: flex;
+    margin: auto;
+}
+
+.width div {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#cruelty {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 0 15%;
+}
+
+#footer_part2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    border-top: 1px solid #ccc;
+}
+
+#footer_part2 p {
+    font-size: 25px;
+    text-align: center;
+}
+
+#footer_part2 #pagamento {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer_part2 #pagamento2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#redes_sociais {
+    width: 50%;
+    height: 50%;
+}
+
+#redes_sociais #logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#redes_sociais #logo img {
+    width: 22vw;
+}
+
+#redes_sociais #redes {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+#redes_sociais #redes div {
+    width: 12%;
+    height: 40.5px;
+    margin: auto;
+    padding: 2px;
+}
+
+#redes_sociais #instagram {
+    background-image: url(../Images/instagram_1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#redes_sociais #instagram:hover {
+    background-image: url(../Images/instagram_2.svg);
+}
+
+#redes_sociais #facebook {
+    background-image: url(../Images/facebook_1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#redes_sociais #facebook:hover {
+    background-image: url(../Images/facebook_2.svg);
+}
+
+#redes_sociais #blog {
+    background-image: url(../Images/blog_1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#redes_sociais #blog:hover {
+    background-image: url(../Images/blog_2.svg);
+}
+
+#redes_sociais #youtube {
+    background-image: url(../Images/youtube_1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#redes_sociais #youtube:hover {
+    background-image: url(../Images/youtube_2.svg);
+}
+
+#redes_sociais #twitter {
+    background-image: url(../Images/twitter_1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#redes_sociais #twitter:hover {
+    background-image: url(../Images/twitter_2.svg);
+}
+
+#footer_part3 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+}
+
+#footer_part3_1 {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#footer_part3_1 div {
+    display: flex;
+    font-size: 12px;
+}
+
+#footer_part3_1 div p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer_part3_1 #traco {
+    border-right: 1px solid #000;
+    padding-right: 40px;
+}
+
+#footer_part3_2 {
+    width: 40%;
+    text-align: center;
+}
+
+#footer_part3_2 h6 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+}
+
+#footer_part3_3 {
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+
+#footer_part3_3 h6 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer_part3_3 img {
+    padding: 0 50px 0 12px;
+    cursor: pointer;
+}

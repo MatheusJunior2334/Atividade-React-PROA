@@ -10,12 +10,19 @@ function Header() {
                     </div>
                 <div id={styles.header_part2}></div>
                 <div id={styles.header_part3}>
-                    <input type="search" placeholder='O que você procura?' />
-                    <input type="text" placeholder='O que você procura?' />
+                    <div id={styles.search}>
+                        <div></div>
+                        <input type="search" placeholder='O que você procura?' />
+                    </div>
+                    <div id={styles.compra}>
+                        <button id={styles.compra1}><p>-5% NA PRIMEIRA COMPRA</p></button>
+                        <button id={styles.compra2}><p>Clique para copiar: CUPOM5</p></button>
+                        <div id={styles.porcentagem}></div>
+                    </div>
                 </div>
                 <div id={styles.header_part4}>
-                    <img src='https://via.placeholder.com/75' alt='login' />
-                    <img src='https://via.placeholder.com/75' alt='login' />
+                    <div id={styles.login}></div>
+                    <div id={styles.carrinho}></div>
                 </div>
             </div>
 
